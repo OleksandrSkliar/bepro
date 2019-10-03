@@ -1,0 +1,32 @@
+body {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  width: 1282px;
+  margin: 0 auto;
+}
+
+.page-header {
+  background-color: #3853d8;
+}
+/*# sourceMappingURL=style.css.map */

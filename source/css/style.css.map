@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;ACHD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;CACf",
     "sources": [
-        "../sass/style.sass"
+        "../source/sass/style.scss",
+        "../source/sass/blocks/_navbar.scss",
+        "../source/sass/blocks/_container.scss"
     ],
     "names": [],
     "file": "style.css"
