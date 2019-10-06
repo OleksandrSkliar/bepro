@@ -1,0 +1,14 @@
+.user-list {
+  display: flex;
+  justify-content: space-between;
+  width: 252px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style: none;
+}
+
+.user-list__link {
+  @include text;
+  text-decoration: none;
+}
