@@ -1,0 +1,21 @@
+.arrival {
+  position: relative;
+}
+
+.arrival__text {
+  position: absolute;
+  left: 35%;
+  bottom: 35%;
+  width: 390px;
+  text-align: center;
+}
+
+.arrival__text-title {
+  width: 386px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 30px;
+}

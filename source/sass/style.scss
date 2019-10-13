@@ -1,8 +1,11 @@
-@import 'global';
-@import 'mixin';
+@import "global.scss";
+@import "mixin.scss";
 
-@import 'blocks/main-nav';
-@import 'blocks/container';
-@import 'blocks/header';
-@import 'blocks/site-list';
-@import 'blocks/user-list';
+@import "blocks/main-nav.scss";
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/site-list.scss";
+@import "blocks/user-list.scss";
+@import "blocks/button.scss";
+@import "blocks/fashion.scss";
+@import "blocks/arrival.scss";

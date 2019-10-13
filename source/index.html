@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bepro</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script defer src="js/all.min.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <div class="container">
       <nav class="main-nav">
         <a href="#" class="main-nav__logo">
-          <img src="../source/img/Be.Pro.svg" width="79" height="22" alt="Logo">
+          <img src="img/Be.Pro.svg" width="79" height="24" alt="Logo">
         </a>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
@@ -44,16 +45,30 @@
             <a href="#" class="user-list__link">sing up</a>
           </li>
           <li class="user-list__item">
-            <a href="#" class="user-list__link user-list__link--cart">cart</a>
+            <a href="#" class="user-list__link user-list__link--cart">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
           </li>
           <li class="user-list__item">
-            <a href="#" class="user-list__link user-list__link--search">search</a>
+            <a href="#" class="user-list__link user-list__link--search">
+              <i class="fas fa-search"></i>
+            </a>
           </li>
         </ul>
       </nav>
-
+      <section class="page-header__arrival arrival">
+        <div class="fashion__text">
+        <h2 class="fashion__text-title">Fashion</h2>
+        </div>
+        <div class="arrival__text">
+          <h2 class="arrival__text-title">New Arrival</h2>
+          <a class="button button-arrial" href="#">Buy Now</a>
+        </div>
+      </section>
     </div>
   </header>
+  <main class="page-main">
+  </main>
 </body>
 
 </html>

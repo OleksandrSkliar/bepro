@@ -1,14 +1,13 @@
-.site-list {
+.user-list {
   display: flex;
   justify-content: space-between;
-  list-style: none;
-  width: 470px;
-  margin: 0;
-  padding: 0;
+  width: 252px;
   align-items: center;
+  list-style: none;
 }
 
-.site-list__link {
+.user-list__link {
   @include text;
+  display: block;
   text-decoration: none;
 }
