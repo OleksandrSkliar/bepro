@@ -2,6 +2,23 @@
   position: relative;
 }
 
+.arrival__fashion {
+  position: absolute;
+  left: 25%;
+  top: 23%;
+  z-index: -1;
+}
+
+.arrival__fashion-title {
+  width: 660px;
+  color: #0021c4;
+  font-family: "Playfair Display";
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 109px;
+  text-transform: uppercase;
+}
+
 .arrival__text {
   position: absolute;
   left: 35%;
